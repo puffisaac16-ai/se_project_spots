@@ -6,6 +6,7 @@
 - Images
 - GitHub Pages
 - Figma
+- Video
 
 **Description**
 
@@ -27,4 +28,8 @@ This link will take you to the published projects through GitHub Pages
 
 **Figma**
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1).
+
+**Video**
+
+- [Link to the project video](https://drive.google.com/file/d/14bRaaCeVyuzA1T8e0TH7ra7HWovKWKan/view?usp=drive_link).

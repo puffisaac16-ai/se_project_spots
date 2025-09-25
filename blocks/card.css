@@ -19,12 +19,10 @@
 
 .card__caption {
   margin: 0;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 20px;
   line-height: 120%;
-  letter-spacing: 0%;
   max-width: 353px;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -42,6 +40,7 @@
   border: none;
   transition: opacity 1s linear;
   cursor: pointer;
+  background-color: transparent;
 }
 
 .card__like-button:hover {

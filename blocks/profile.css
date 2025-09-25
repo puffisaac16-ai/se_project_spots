@@ -14,6 +14,7 @@
 .profile__avatar {
   width: 190px;
   height: 190px;
+  border-radius: 8px;
 }
 
 .profile__info {
@@ -26,10 +27,8 @@
 .profile__username {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 32px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #212121;
   margin: 0 0 12px;
   display: -webkit-box;
@@ -43,10 +42,8 @@
 .profile__description {
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #212121;
   opacity: 0.7;
   margin: 0;
@@ -60,7 +57,7 @@
 
 .profile__edit-icon {
   opacity: 0.7;
-  width: 18.479999225964608;
+  width: 18px;
   height: 16px;
   margin-right: 8px;
 }
@@ -68,12 +65,10 @@
 .profile__edit-button {
   border: none;
   background: none;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   color: #212121;
   opacity: 0.7;
   padding: 0 0 0 23px;
@@ -94,15 +89,13 @@
   border: none;
   color: #fcf5e5;
   background: #212121;
-  width: 149px;
+  width: 157px;
   height: 52px;
   border-radius: 8px;
-  font-family: Poppins;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-style: Medium;
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
   margin: 0;
   padding: 0 0 0 52px;
   cursor: pointer;
@@ -162,5 +155,7 @@
 
   .profile__new-button {
     width: 288px;
+    padding-left: 118px;
+    background-position: 98px 20px;
   }
 }

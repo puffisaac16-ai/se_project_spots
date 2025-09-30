@@ -1,0 +1,131 @@
+.modal {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  background-color: #00000050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_is-opened {
+  visibility: visible;
+}
+
+.modal__container {
+  background-color: #fff;
+  position: relative;
+  max-width: 730px;
+  width: 100%;
+  padding: 32px 50px;
+  border-radius: 8px;
+  margin: 0 10px;
+}
+
+.modal__close-button {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+  opacity: 0.4;
+  background-image: url(../images/close_icon.svg);
+  cursor: pointer;
+  transition: opacity 1s linear;
+  padding: 0;
+}
+
+.modal__close-button:hover {
+  opacity: 1;
+}
+
+.modal__title {
+  margin: 0 0 32px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 100%;
+  color: #212121;
+  padding: 4px 0;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal__label {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin: 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  color: #212121b2;
+}
+
+.modal__input {
+  margin: 8px 0 0;
+  padding: 16px 12px;
+  border: 1px solid #21212166;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  color: #212121;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: opacity 1s linear;
+}
+
+.modal__input:hover {
+  opacity: 1;
+}
+
+.modal__input::placeholder {
+  color: #21212166;
+}
+
+.modal__save-button {
+  width: 156px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #fcf5e5;
+  background-color: #212121;
+  padding: 15px 58px;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 630px) {
+  .modal__container {
+    padding: 12px;
+  }
+
+  .modal__close-button {
+    top: 12px;
+    right: 12px;
+  }
+
+  .modal__title {
+    font-size: 20px;
+    padding: 10px 0;
+    margin-bottom: 24px;
+  }
+
+  .modal__label {
+    margin-bottom: 24px;
+  }
+
+  .modal__save-button {
+    width: 100%;
+  }
+}

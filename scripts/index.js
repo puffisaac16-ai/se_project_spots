@@ -19,14 +19,15 @@ function handleEditProfileSubmission(evt) {
   evt.preventDefault();
   profileUsername.textContent = editUsernameText.value;
   profileDescription.textContent = editDescriptionText.value;
-  editProfileModal.classList.remove("modal_is-opened");
+  closeModal(editProfileModal);
 }
 
 function handleNewPostSubmission(evt) {
   evt.preventDefault();
   console.log(cardImage.value);
   console.log(cardCaption.value);
-  newPostModal.classList.remove("modal_is-opened");
+  closeModal(newPostModal);
+  evt.target.reset();
 }
 
 function openModal(modal) {

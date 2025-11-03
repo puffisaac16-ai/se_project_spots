@@ -10,6 +10,12 @@
   border-radius: 8px;
   display: block;
   cursor: pointer;
+  transition: opacity 1s linear;
+  opacity: 1;
+}
+
+.card__image:hover {
+  opacity: 0.8;
 }
 
 .card__delete-button {
@@ -62,6 +68,7 @@
   transition: opacity 1s linear;
   cursor: pointer;
   background-color: transparent;
+  background-repeat: no-repeat;
 }
 
 .card__like-button:hover {

@@ -53,7 +53,7 @@
           <ul class="cards__list">
             <template id="card-template">
               <li class="card">
-                <img class="card__image" />
+                <img class="card__image" alt="" src="#" />
                 <button
                   class="card__delete-button"
                   aria-label="Delete card"
@@ -85,6 +85,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your name"
+                required
             /></label>
             <label for="profile-description-input" class="modal__label"
               >Description
@@ -93,6 +94,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Describe yourself"
+                required
             /></label>
             <button type="submit" class="modal__save-button">Save</button>
           </form>
@@ -110,6 +112,7 @@
                 type="url"
                 class="modal__input"
                 placeholder="Paste a link to the picture"
+                required
             /></label>
             <label for="card-caption-input" class="modal__label"
               >Caption
@@ -118,6 +121,7 @@
                 type="text"
                 class="modal__input"
                 placeholder="Type your caption"
+                required
             /></label>
             <button type="submit" class="modal__save-button">Save</button>
           </form>
@@ -125,7 +129,7 @@
       </div>
       <div class="modal" id="pop-up-modal">
         <div class="modal__pop-up-container">
-          <img class="modal__image" />
+          <img class="modal__image" alt="" src="#" />
           <button class="modal__pop-up-close-button"></button>
           <h2 class="modal__caption"></h2>
         </div>

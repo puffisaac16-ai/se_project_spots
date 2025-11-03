@@ -66,10 +66,6 @@ function handleNewPostSubmission(evt) {
     name: cardCaption.value.trim(),
     link: cardImage.value.trim(),
   });
-  if (!isValidURL(cardImage.value)) {
-    alert("Please enter a valid URL");
-    return;
-  }
   cardsList.prepend(currentCard);
   closeModal(newPostModal);
   evt.target.reset();
@@ -105,15 +101,6 @@ function getCardElement(data) {
     openModal(popUpModal);
   });
   return cardElement;
-}
-
-function isValidURL(url) {
-  try {
-    new URL(url);
-    return true;
-  } catch {
-    return false;
-  }
 }
 
 editProfileBtn.addEventListener("click", function () {

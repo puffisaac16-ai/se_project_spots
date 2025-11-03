@@ -1,5 +1,6 @@
 .card {
   margin: 0 auto;
+  position: relative;
 }
 
 .card__image {
@@ -8,6 +9,26 @@
   object-fit: cover;
   border-radius: 8px;
   display: block;
+  cursor: pointer;
+}
+
+.card__delete-button {
+  background-image: url(../images/bin_icon.svg);
+  background-size: 32px 32px;
+  margin: 0;
+  padding: 0;
+  height: 32px;
+  width: 32px;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.card__delete-button:hover {
+  background-image: url(../images/bin_icon_hover.svg);
 }
 
 .card__info {
@@ -45,6 +66,15 @@
 
 .card__like-button:hover {
   opacity: 1;
+}
+
+.card__like-button_active {
+  background-image: url(../images/like_icon_hover.svg);
+  opacity: 1;
+}
+
+.card__like-button_active:hover {
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 630px) {

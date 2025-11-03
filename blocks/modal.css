@@ -125,6 +125,50 @@
   opacity: 0.8;
 }
 
+.modal__pop-up-container {
+  position: relative;
+}
+
+.modal__image {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.modal__pop-up-close-button {
+  position: absolute;
+  right: -53px;
+  border: none;
+  background: none;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+  background-image: url(../images/close_icon_dark.svg);
+  cursor: pointer;
+  transition: opacity 1s linear;
+  padding: 0;
+}
+
+.modal__pop-up-close-button:hover {
+  opacity: 0.4;
+}
+
+.modal__caption {
+  margin: 8px 0 0;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  background-color: #212121;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+  max-width: fit-content;
+}
+
 @media screen and (max-width: 630px) {
   .modal__container {
     padding: 12px;
@@ -147,5 +191,10 @@
 
   .modal__save-button {
     width: 100%;
+  }
+
+  .modal__image {
+    max-width: 60vw;
+    max-height: 60vh;
   }
 }

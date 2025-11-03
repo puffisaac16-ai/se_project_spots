@@ -104,7 +104,6 @@ function getCardElement(data) {
     popUpImage.alt = data.name;
     openModal(popUpModal);
   });
-
   return cardElement;
 }
 

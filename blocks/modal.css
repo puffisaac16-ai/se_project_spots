@@ -5,6 +5,7 @@
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 0 10px;
   max-width: 100%;
   background-color: #00000050;
   display: flex;
@@ -26,7 +27,6 @@
   width: 100%;
   padding: 32px 50px;
   border-radius: 8px;
-  margin: 0 10px;
   box-sizing: border-box;
 }
 
@@ -191,5 +191,9 @@
   .modal__pop-up-close-button {
     right: 0px;
     top: -48px;
+  }
+
+  .modal__caption {
+    font-size: 16px;
   }
 }
